@@ -1,6 +1,6 @@
 def perform_operation (num1, num2, operation):
     
-    if operation.lower() == 'add':
+    if operation == 'add':
         result = num1 + num2
         return result
     elif operation == 'subtract':
